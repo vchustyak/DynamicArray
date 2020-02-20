@@ -6,6 +6,10 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	std::cout<<"Hello, World\n";
+	int firstArgument, secondArgument;
+	std::cout<<"Enter two numbers\n";
+	std::cin>>firstArgument>>secondArgument;
+	std::cout<<"Suma is "<<suma<<endl;
 	return   0;
 }
 
